@@ -29,7 +29,7 @@ elif 17 <= hour < 22:
     discount = total * 0.05
 else:
     print("Closed")
-    print("------------------------------")
+
     print("Name uppercase :", name.upper())
     print("Name lowercase :", name.lower())
     print("Name length :", len(name))
@@ -47,7 +47,7 @@ print("Time period :", discount_name)
 print("Discount :", discount, "KZT")
 print("Tip (10%) :", tip, "KZT")
 print("Total :", final_total, "KZT")
-print("------------------------------")
+
 
 print("Name uppercase :", name.upper())
 print("Name lowercase :", name.lower())
