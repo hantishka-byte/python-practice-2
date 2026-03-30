@@ -29,7 +29,6 @@ elif 17 <= hour < 22:
     discount = total * 0.05
 else:
     print("Closed")
-
     print("Name uppercase :", name.upper())
     print("Name lowercase :", name.lower())
     print("Name length :", len(name))
@@ -48,13 +47,4 @@ print("Discount :", discount, "KZT")
 print("Tip (10%) :", tip, "KZT")
 print("Total :", final_total, "KZT")
 
-
-print("Name uppercase :", name.upper())
-print("Name lowercase :", name.lower())
-print("Name length :", len(name))
-
-if name[0].upper() == "A" or name[0].upper() == "S":
-    print("VIP customer")
-else:
-    print("Regular customer")
 
