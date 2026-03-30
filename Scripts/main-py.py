@@ -1,8 +1,6 @@
 name = input("Enter customer name: ")
-
 total = 0
 count = 0
-
 while True:
     item = input("Enter item name (or 'done' to finish): ")
     if item == "done":
@@ -10,14 +8,10 @@ while True:
     price = float(input("Enter price: "))
     total = total + price
     count = count + 1
-
 print("Customer :", name.upper())
 print("Items :", count)
 print("Subtotal :", total, "KZT")
-
 hour = int(input("Enter current hour (0-23): "))
-
-
 if 6 <= hour < 12:
     discount_name = "Morning discount"
     discount = total * 0.10
@@ -37,11 +31,9 @@ else:
     else:
         print("Regular customer")
     exit()
-
 new_total = total - discount
 tip = new_total * 0.10
 final_total = new_total + tip
-
 print("Time period :", discount_name)
 print("Discount :", discount, "KZT")
 print("Tip (10%) :", tip, "KZT")
