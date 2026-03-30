@@ -16,7 +16,7 @@ print("Items :", count)
 print("Subtotal :", total, "KZT")
 
 hour = int(input("Enter current hour (0-23): "))
-print("------------------------------")
+
 
 if 6 <= hour < 12:
     discount_name = "Morning discount"
