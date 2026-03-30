@@ -57,3 +57,4 @@ if name[0].upper() == "A" or name[0].upper() == "S":
     print("VIP customer")
 else:
     print("Regular customer")
+
